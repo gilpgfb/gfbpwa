@@ -1,7 +1,7 @@
 /* cualquier cambio en el contenido de este archivo hace que el service worker
  * se reinstale. Normalmente se cambia el número en el nombre del caché cuando
  * cambia el contenido de los archivos. */
-const CACHE = "gfbpwa-1";
+const CACHE = "gfbpwa-1.0S";
 // Archivos requeridos para que la aplicación funcione fuera de línea.
 const ARCHIVOS = [
   "estilos.css",
