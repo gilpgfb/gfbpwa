@@ -2,7 +2,7 @@
  + cWualquier cambio en el contenido de este archivo hace que el service worker
  * se reinstale. Normalmente se cambia el número en el nombre del caché cuando
  * cambia el contenido de los archivos. */
-const CACHE = "gfbpwa-1";
+const CACHE = "gfbpwa-1.1";
 // Archivos requeridos para que la aplicación funcione fuera de línea.
 const ARCHIVOS = [
   "img/icono-256.png",
@@ -12,10 +12,10 @@ const ARCHIVOS = [
   "favicon.ico",
   "index.html",
   "manifest.json",
-  "__/firebase/7.6.1/firebase-app.js",
-  "__/firebase/7.6.1/firebase-auth.js",
-  "__/firebase/7.6.1/firebase-firestore.js",
-  "__/firebase/7.6.1/firebase-storage.js",
+  "__/firebase/7.9.1/firebase-app.js",
+  "__/firebase/7.9.1/firebase-auth.js",
+  "__/firebase/7.9.1/firebase-firestore.js",
+  "__/firebase/7.9.1/firebase-storage.js",
   "__/firebase/init.js",
   '/'
 ];
